@@ -84,23 +84,18 @@ h4 {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
-@media only screen and (max-width: 400px) {
-  body {
-    overflow-x: hidden;
-  }
-  .container {
-    width: 100%;
-    margin: 0.5rem;
+@media only screen and (max-width: 375px) {
+  .add-note {
+    margin: 0;
   }
   .add-note textarea {
-    width: 100%;
-    font-size: 18px;
+    font-size: 14px;
   }
   .add-note input {
-    width: 100%;
-    font-size: 16px;
+    font-size: 14px;
   }
   .note-grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 }
